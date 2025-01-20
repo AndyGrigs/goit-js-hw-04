@@ -13,7 +13,7 @@ const profile = {
   },
 
   updatePlayTime(newPlayTime) {
-    this.playTime = newPlayTime;
+    this.playTime += newPlayTime;
   },
 };
 
